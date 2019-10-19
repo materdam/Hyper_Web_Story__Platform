@@ -1,0 +1,58 @@
+.nav-toggle {
+    width:10vh;
+    height:10vh;
+    border:0;
+    background:#000;
+    cursor:pointer;    
+    border-radius:4px;    
+    position:relative;
+}
+.nav-toggle:focus {
+    outline:0;
+}
+.nav-toggle span {
+    width:80%;
+    margin:5px auto;
+    height:3px;
+    border-radius:2px;
+    background:#fff;
+    display:block;
+}
+
+.main-menu {
+    position:fixed;
+    top:0;
+    right:-300px;
+    width:260px;
+    background:#000;
+    height:100%;  
+    transition:1s all ease-in-out; /* wsuwam menu na ekran */
+}
+.main-menu.show {
+    transform:translateX(-100%);
+    body{
+        background: #fff;
+    }
+}
+.main-menu ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    
+}
+.main-menu ul li {
+    border-bottom:1px solid #444;
+}
+.main-menu ul li a {
+    padding:30px;
+    display:block;
+    text-align:center;
+    font-size:15px;
+    font-family:sans-serif;
+    color:#fff;
+    text-decoration:none;
+    transition:0.5s background;
+}
+.main-menu ul li a:hover {
+    background:#222;
+}

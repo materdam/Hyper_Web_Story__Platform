@@ -1,0 +1,5 @@
+
+.icon-instagram:before { content: '\e800';height: 100px;width: 100px; } /* '' */
+.icon-deviantart:before { content: '\f1bd'; height: 100px;width: 100px;} /* '' */
+.icon-facebook-rect:before { content: '\f301';height: 100px;width: 100px; } /* '' */
+.icon-youtube:before { content: '\f315';height: 100px;width: 100px; } /* '' */

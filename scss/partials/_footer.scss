@@ -1,0 +1,127 @@
+.footer_game{
+      
+    max-width: 100vh;
+    margin: 0 auto -1vh auto;
+    
+    height: 30vh;
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border:whitesmoke solid 1vh;
+}
+.footer_all{
+      
+    max-width: 100vh;
+    margin: 0 auto -1vh auto;
+    
+    height: 30vh;
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:whitesmoke solid 1vh;
+}
+////-------------------------------
+.button{
+    
+    height: 20vh;
+    width: 35vh;
+    background: whitesmoke;
+    &_right{
+        border-radius: 0 5vh 10vh 0;
+        height: 20vh;
+        width: 35vh;
+        background: whitesmoke;
+   
+    }   
+    &_left{
+        border-radius: 10vh 0 0 5vh;
+        height: 20vh;
+        width: 35vh;
+        background: whitesmoke;       
+    }
+}
+
+.button_left:hover{
+    background: rgb(158, 71, 71);
+}
+.button_right:hover{
+    background: rgb(158, 71, 71);
+}
+///------------------------------------
+.footer__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__box_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+    //margin-top: 22vh;
+    height: 8vh;
+    width: 101%;
+    background: whitesmoke;
+}
+
+.contact__box_instagram{
+    //margin: 3vh;
+    border-radius: 2vh;
+    height: 14vh;
+    width: 14vh;
+    margin: 4vh 0.5vh 4vh 0.5vh;
+    background: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+        background: #E0476C; 
+    }
+}
+.contact__box_facebook{
+    //margin: 3vh;
+    border-radius: 2vh;
+    height: 14vh;
+    width: 14vh;
+    margin: 4vh 0.5vh 4vh 0.5vh;
+    background: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+        background: #4267B2; 
+    }
+}
+.contact__box_deviantart{
+    //margin: 3vh;
+    border-radius: 2vh;
+    height: 14vh;
+    width: 14vh;
+    margin: 4vh 0.5vh 4vh 0.5vh;
+    background: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+        background: #68E69C; 
+        opacity: 1;
+    }
+}
+
+

@@ -1,0 +1,48 @@
+header{
+    
+    margin: 0 auto;
+    background: transparent;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+
+.language{
+    margin: 2.5vh;
+    width: 6vh;
+    height: 6vh;
+    background: whitesmoke;
+    border-radius: 3vh;
+}
+.title{
+    // margin: 2.5vh;
+    // width: 5vh;
+    margin-top: -8vh;
+    text-align: center;
+    height: 7vh;
+    // background: whitesmoke;
+    
+}
+h3{
+    color: whitesmoke;
+    font-size: 3vh;
+    
+    margin: 3vh;
+
+}
+
+// .menu{
+//     margin: 2.5vh;
+//     width: 5vh;
+//     height: 5vh;
+//     background: whitesmoke;
+// }
+

@@ -1,0 +1,361 @@
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  padding: 0;
+  height: 140.8vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/images/backgroundSoul.jpg");
+  box-sizing: border-box;
+  position: relative;
+}
+
+body.back {
+  background-image: none;
+}
+
+.container {
+  min-height: 100%;
+  max-width: 98vh;
+  margin: 0 auto;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  margin: 0 auto;
+  background: transparent;
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.language {
+  margin: 2.5vh;
+  width: 6vh;
+  height: 6vh;
+  background: whitesmoke;
+  border-radius: 3vh;
+}
+
+.title {
+  margin-top: -8vh;
+  text-align: center;
+  height: 7vh;
+}
+
+h3 {
+  color: whitesmoke;
+  font-size: 3vh;
+  margin: 3vh;
+}
+
+main {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+.main_content {
+  margin: 2.5vh;
+  height: 110vh;
+  background: transparent;
+  border: 1vh solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screen {
+  margin-top: 11vh;
+  height: 60vh;
+  width: 80%;
+  background-size: cover;
+  border: 1vh solid whitesmoke;
+  background-image: url(/images/story0004.jpeg);
+}
+
+.second_content {
+  display: flex;
+  margin: 2.5vh;
+  border-radius: 5vh;
+  height: 40vh;
+  background: whitesmoke;
+  text-align: center;
+}
+
+.dialogue {
+  box-sizing: border-box;
+  padding: 2vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main_content_home {
+  margin-top: 13vh;
+  margin-bottom: 2vh;
+  height: 120vh;
+  background: transparent;
+  border: 1vh solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home__content_top {
+  background: whitesmoke;
+  height: 20vh;
+  width: 80%;
+  margin: 1vh;
+}
+
+.home__content_mid {
+  background: whitesmoke;
+  height: 60vh;
+  width: 80%;
+  margin: 1vh;
+}
+
+.home__content_bottom {
+  background: whitesmoke;
+  height: 20vh;
+  width: 80%;
+  margin: 1vh;
+}
+
+.picture__author {
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  background-image: url("/images/me.jpg");
+}
+
+.author__discription {
+  margin-top: 1vh;
+  height: 65vh;
+  width: 40vh;
+  border-radius: 4vh;
+  background: whitesmoke;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2vh;
+}
+
+.home__content_top {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 4vh;
+  border-radius: 5vh;
+}
+
+.home__content_mid {
+  background-image: url("/images/storyStart.jpeg");
+  background-size: cover;
+}
+
+.home__content_bottom {
+  border-radius: 3vh;
+  text-align: center;
+  font-size: 4vh;
+  padding: 7vh;
+  box-sizing: border-box;
+}
+
+.home__content_bottom:hover {
+  background: #e2e1e1;
+}
+
+.footer_game {
+  max-width: 100vh;
+  margin: 0 auto -1vh auto;
+  height: 30vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: whitesmoke solid 1vh;
+}
+
+.footer_all {
+  max-width: 100vh;
+  margin: 0 auto -1vh auto;
+  height: 30vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: whitesmoke solid 1vh;
+}
+
+.button {
+  height: 20vh;
+  width: 35vh;
+  background: whitesmoke;
+}
+
+.button_right {
+  border-radius: 0 5vh 10vh 0;
+  height: 20vh;
+  width: 35vh;
+  background: whitesmoke;
+}
+
+.button_left {
+  border-radius: 10vh 0 0 5vh;
+  height: 20vh;
+  width: 35vh;
+  background: whitesmoke;
+}
+
+.footer__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer__box_home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  height: 8vh;
+  width: 101%;
+  background: whitesmoke;
+}
+
+.contact__box_instagram {
+  border-radius: 2vh;
+  height: 14vh;
+  width: 14vh;
+  margin: 4vh 0.5vh 4vh 0.5vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__box_instagram:hover {
+  background: #E0476C;
+}
+
+.contact__box_facebook {
+  border-radius: 2vh;
+  height: 14vh;
+  width: 14vh;
+  margin: 4vh 0.5vh 4vh 0.5vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__box_facebook:hover {
+  background: #4267B2;
+}
+
+.contact__box_deviantart {
+  border-radius: 2vh;
+  height: 14vh;
+  width: 14vh;
+  margin: 4vh 0.5vh 4vh 0.5vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__box_deviantart:hover {
+  background: #68E69C;
+}
+
+.nav-toggle {
+  width: 10vh;
+  height: 10vh;
+  border: 0;
+  background: #000;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+}
+
+.nav-toggle:focus {
+  outline: 0;
+}
+
+.nav-toggle span {
+  width: 80%;
+  margin: 5px auto;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  display: block;
+}
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 260px;
+  background: #000;
+  height: 100%;
+  transition: 1s all ease-in-out;
+  /* wsuwam menu na ekran */
+}
+
+.main-menu.show {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.main-menu.show body {
+  background: #fff;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu ul li {
+  border-bottom: 1px solid #444;
+}
+
+.main-menu ul li a {
+  padding: 30px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s background;
+}
+
+.main-menu ul li a:hover {
+  background: #222;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="instagram" unicode="&#xe800;" d="M0-50l0 800q0 41 30 71t70 29l800 0q41 0 71-29t29-71l0-800q0-41-29-71t-71-29l-800 0q-41 0-70 29t-30 71z m200 400q0-124 88-212t212-88 212 88 88 212-88 212-212 88-212-88-88-212z m100 0q0 82 59 141t141 59 141-59 59-141-59-141-141-59-141 59-59 141z" horiz-adv-x="1000" />
+
+<glyph glyph-name="deviantart" unicode="&#xf1bd;" d="M571 681l-169-325 14-17h155v-232h-282l-25-16-79-153-17-17h-168v170l169 325-13 17h-156v231h283l25 17 79 152 17 17h167v-169z" horiz-adv-x="571.4" />
+
+<glyph glyph-name="facebook-rect" unicode="&#xf301;" d="M183 850c-102 0-183-81-183-183l0-634c0-102 81-183 183-183l344 0 0 391-104 0 0 141 104 0 0 120c0 94 61 181 201 181 57 0 100-5 100-5l-4-132s-43 1-90 1c-50 0-58-24-58-62l0-103 152 0-6-141-146 0 0-391 141 0c102 0 183 81 183 183l0 634c0 102-81 183-183 183l-634 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="youtube" unicode="&#xf315;" d="M638 349l-378 190 0-380z m-559 330l689 0c56 0 80-24 80-79l0-501c0-52-24-79-80-79l-689 0c-51 0-79 27-79 79l0 501c0 55 28 83 79 79z" horiz-adv-x="848" />
+</font>
+</defs>
+</svg>
